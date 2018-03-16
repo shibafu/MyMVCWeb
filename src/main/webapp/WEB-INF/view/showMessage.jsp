@@ -14,5 +14,12 @@
 	</style>
 		<h1>Welcome</h1>
 		<p>Welcome to Spring MVC !</p>
+		
+		<p>${msg}</p>
+		
+		<form action="./msg" method="post">
+			<input type="text" name="text1">
+			<input type="submit" value="送信！">
+		</form>
 	</body>
 </html>
