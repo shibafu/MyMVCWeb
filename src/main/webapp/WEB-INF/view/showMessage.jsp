@@ -12,13 +12,14 @@
 		body { font-size:14pt; color:#666; }
 		h1 { font-size:70pt; color:#aaa; margin:-15px 0px;}
 	</style>
-		<h1>Welcome</h1>
+		<h1>Index Page</h1>
 		<p>Welcome to Spring MVC !</p>
 		
 		<p>${msg}</p>
 		
 		<form action="./msg" method="post">
-			<input type="text" name="text1">
+			<input type="text" name="title">
+			<textarea name="content"></textarea>
 			<input type="submit" value="送信！">
 		</form>
 	</body>
